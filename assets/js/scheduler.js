@@ -34,7 +34,7 @@ $(document).ready(function () {
                 // else { textEl.addClass("future"); }
                 // if then else is so long winded
                 textareaEl.addClass((currentHour > hour) ? "past" : (currentHour == hour) ? "present" : (currentHour < hour) ? "future" : "");
-                let saveBtn = $("<button>").addClass("col-1 saveBtn").attr("data-hour", hour).append($("<i>").addClass("far fa-save"));
+                let saveBtn = $("<button>").addClass("col-1 saveBtn").attr("data-hour", hour).append($("<i>").addClass("fas fa-save"));
                 rowDiv.append(timeEl, textareaEl, saveBtn);
                 containerEl.append(rowDiv);
                 break;
@@ -45,7 +45,7 @@ $(document).ready(function () {
                     $('<div>', { "class": "row time-block" }).append([
                         $('<p>', { "class": "col-1 hour", "text": moment(hour, "HH").format("hA") }),
                         $('<textarea>', { "class": "col-10 description " + goc, "id": hour, "text": schedule[hour - 1] }),
-                        $('<button>', { "class": "col-1 saveBtn", "data-hour": hour }).append($('<i>', { "class": "far fa-save" }))
+                        $('<button>', { "class": "col-1 saveBtn", "data-hour": hour }).append($('<i>', { "class": "fas fa-save" }))
                     ])
                 ])
                 break;
