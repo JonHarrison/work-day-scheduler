@@ -1,10 +1,8 @@
-# Third-Party APIs: Work Day Scheduler
+# Module 7 Challenge Third-Party APIs: Work Day Scheduler
 
-## Your Task
+## Title
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+A simple calendar application that allows a user to save events for each hour of the working day.
 
 ## User Story
 
@@ -13,75 +11,55 @@ AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
- 
+
 ## Acceptance Criteria
 
-The app should:
+IT IS DONE when
 
-* Display the current day at the top of the calender when a user opens the planner.
- 
-* Present timeblocks for standard business hours when the user scrolls down.
- 
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
+* The current day is displayed at the top of the calender when a user opens the planner.
+* Timeblocks are present for standard business hours when the user scrolls down.
+* Each timeblock is colour-coded based on past, present and future when the timeblock is viewed.
+* A user is allowed to enter an event when they click a timeblock.
+* The event is saved in local storage when the save button is clicked in that timeblock.
+* Events persist between refreshes of a page.
 
-* Save the event in local storage when the save button is clicked in that timeblock.
+## Tasks Completed
 
-* Persist events between refreshes of a page
+* Implemented the required solution in the browser featuring dynamically updated HTML and CSS powered by jQuery and Moment.js
+* Divided the implementation into multiple logical functions
+* Uses localStorage to maintain the schedule in a JSON serialised array
+* Implemented a clock using a setInterval and Moment.js for date and time utilities
+* Implemented schedule rows using jQuery and Bootstrap
+* Implemented a click event handler using jQuery
 
-The following animation demonstrates the application functionality:
+## Challenges / Things I learnt
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+* Use of Moment.js date and time utilities and format method
+* Use of jQuery to retrieve and build DoM elements
+* Use of localStorage and JSON.stringify and JSON.parse methods
 
+## Website image
 
-## Grading Requirements
+## Technologies Used
 
-This homework is graded based on the following criteria: 
+- HTML
+- CSS
+- Bootstrap v4.3.1
+- FontAwesome v5.8.1
+- Google Open Sans font
+- Javascript
+- jQuery v3.2.1
+- Moment.js v2.24.0
 
-### Technical Acceptance Criteria: 40%
+## Links
 
-* Satisfies all of the above acceptance criteria plus the following:
+* [Link to the deployed website](https://jonharrison.github.io/work-day-scheduler/)
+* [Link to the code repository](https://github.com/JonHarrison/work-day-scheduler)
 
-  * Uses a date utility library to work with date and time
+## Contact
 
-### Deployment: 32%
+If you have any questions, please contact me at :
 
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+* GitHub profile : [JonHarrison](https://github.com/JonHarrison)
+* Email : [******]()
+* LinkedIn : [******]()
