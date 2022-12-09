@@ -40,6 +40,8 @@ IT IS DONE when
 
 ## Website image
 
+![Work Day Scheduler](https://user-images.githubusercontent.com/1043077/206747731-332971a0-ee31-489c-bf2a-12919b3ee485.png)
+
 ## Technologies Used
 
 - HTML
